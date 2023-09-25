@@ -15,18 +15,18 @@
  */
 
 /**
- * Many a times whn u pass the content in JSON.parse() function is a buffered format data
+ * Many a times when u pass the content in JSON.parse() function is a buffered format data
  * which is a representation os 0s and 1s.
  */
 
 /**
- * Stream is not a contibues flow of data it is actually chunks of data
+ * Stream is not a continues flow of data it is actually chunks of data
  */
 /**
  * Default size of the batch size is 64kb which is called high watermark
  *
  * So if u created a readStream, then on gathering 64kb of data node will broadcast or shout out an event,
- * the event is "data" and then the code will capture the event "data" and cal the callback/automatic func
+ * the event is "data" and then the code will capture the event "data" and call the callback/automatic func
  *
  * Until we attach readStream.on("data", autoFunc) the stream doesn't starts puling data until it know what
  * do with data when it arrives. So, "on" method is necessary after creating an instamce of stream
@@ -42,7 +42,7 @@
 
 
 /**
- * setTimeout in Node is built with C++ and libUV, and in browser its the nrowser API not in JS
+ * setTimeout in Node is built with C++ and libUV, and in browser its the browser API not in JS
  */
 
 /**
@@ -54,7 +54,7 @@
  */
 
 /**
- * setImmediate() puts the fucntion into the "check queue", event loop goes to "cehck queue" after all the functions
+ * setImmediate() puts the fucntion into the "check queue", event loop goes to "check queue" after all the functions
  * are done in the "IO callback queue" at that particular moment.
  *
  * Mostly "check queue" is used when u want to do something after "IO callback queue" is done

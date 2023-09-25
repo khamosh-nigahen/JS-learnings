@@ -16,7 +16,7 @@
 // NodeJS recently added that u can use await keyword in the global space without using async
 // but if u are in the function u have to declare a function as async to use await
 
-// process.exit(1) => means xrashed or something bad happened in code
+// process.exit(1) => means crashed or something bad happened in code
 // process.exit(0) => code running has completed successfully
 
 // u have to use the packagename for import

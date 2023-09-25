@@ -32,7 +32,7 @@
  */
 
 /**
- * all the methods available in readable ans writeable streams are available in Transform and duplex streams
+ * all the methods available in readable and writeable streams are available in Transform and duplex streams
  */
 
 

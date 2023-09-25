@@ -3,7 +3,7 @@ const EventEmitter = require("events");
 const customEmitter = new EventEmitter();
 
 
-// customEmitter.emit("response") // uncomment the code and comnnet the last line
+// customEmitter.emit("response") // uncomment the code and comment the last line
 // here u wont get anything in console log because first u emitted the event then u r listening to it
 // So it doesn't receive it.. Hence, none of the logs gets printed
 
